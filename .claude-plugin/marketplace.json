@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "lllang-plugins",
+  "version": "1.0.0",
+  "description": "A curated collection of Claude Code plugins for document handling, design tools, development utilities, and workflow automation",
+  "owner": {
+    "name": "lllang"
+  },
+  "plugins": [
+    {
+      "name": "cc-ext",
+      "description": "A curated collection of skills, agents, and slash commands - including document handling (docx, xlsx, pptx, pdf), design tools (frontend, canvas, algorithmic art), development utilities (testing, MCP building, coding agents), and workflow automation (Linear integration, git workflows, planning)",
+      "version": "1.0.0",
+      "source": "./plugins/cc-ext",
+      "category": "productivity"
+    }
+  ]
+}

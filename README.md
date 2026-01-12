@@ -2,7 +2,19 @@
 
 A comprehensive collection of skills, agents, and slash commands for [Claude Code](https://claude.ai/claude-code).
 
-## Quick Install
+## Installation
+
+### From Plugin Marketplace (Recommended)
+
+```bash
+# Add this marketplace
+claude install marketplace github:lllang/cc-ext
+
+# Then install the plugin
+claude install cc-ext
+```
+
+### Manual Installation
 
 Clone this repository and copy the `.claude/` directory to your project or user directory:
 
@@ -105,18 +117,20 @@ Utility scripts in `.claude/scripts/`:
 ## Directory Structure
 
 ```
-.claude/
-├── agents/           # Custom subagents
-├── commands/         # Slash commands
-├── scripts/          # Utility scripts
-│   ├── hack/         # General utilities
-│   └── ralph/        # Automation scripts
-├── skills/           # Specialized skills
-│   ├── docx/
-│   ├── pdf/
-│   ├── pptx/
-│   └── ... (25 total)
-└── settings.json     # Configuration
+cc-ext/
+├── .claude-plugin/
+│   └── marketplace.json  # Marketplace definition
+├── plugins/
+│   └── cc-ext/           # Main plugin
+│       ├── .claude-plugin/
+│       │   └── plugin.json
+│       ├── agents/       # 6 custom subagents
+│       ├── commands/     # 29 slash commands
+│       └── skills/       # 25 specialized skills
+├── .claude/
+│   ├── scripts/          # Utility scripts
+│   └── settings.json     # Configuration
+└── CLAUDE.md             # Project instructions
 ```
 
 ## Configuration
