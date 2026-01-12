@@ -1,0 +1,36 @@
+# Claude Code local files
+.claude/settings.local.json
+.claude/CLAUDE.local.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Node modules (if any skill uses npm)
+node_modules/
+
+# Python (if any skill uses Python)
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
