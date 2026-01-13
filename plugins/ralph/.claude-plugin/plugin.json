@@ -6,9 +6,16 @@
     "name": "lllang"
   },
   "commands": "./commands/",
-  "agents": "./agents/",
+  "agents": [
+    "./agents/codebase-analyzer.md",
+    "./agents/codebase-locator.md",
+    "./agents/codebase-pattern-finder.md",
+    "./agents/thoughts-analyzer.md",
+    "./agents/thoughts-locator.md",
+    "./agents/web-search-researcher.md"
+  ],
   "skills": "./skills/",
   "hooks": "./hooks/",
-  "repository": "https://github.com/lllang/ccmarket",
+  "repository": "https://github.com/lllangWV/ccmarket",
   "license": "MIT"
 }
