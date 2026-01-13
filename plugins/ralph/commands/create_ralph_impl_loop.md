@@ -8,7 +8,7 @@ Generate an implementation loop that uses GitHub issues and specs (no Linear int
 
 ## Arguments
 
-- `$1` = Model (default: `sonnet`, options: `sonnet`, `opus`, `haiku`)
+- `$1` = Model (default: `opus`, options: `sonnet`, `opus`, `haiku`)
 - `$2` = Output directory (default: `scripts/`)
 
 ## Process
@@ -99,16 +99,11 @@ git add -A && git commit -m "..."  # do not include claude attribution
 4. **Full implementations only** - no placeholders or minimal implementations
 
 5. **Clean up periodically** - when IMPLEMENTATION_PLAN.md gets large, remove completed items using a subagent
-
-6. **Avoid exploring generated directories**:
-   - `.pixi/`, `.venv/`, `node_modules/`
-   - `.pytest_cache/`, `.ruff_cache/`, `__pycache__/`
-   - `.devcontainer/`, `.config/`
 ```
 
 ### Step 3: Generate run_impl_loop.sh
 
-Use the Write tool to create `${2:-scripts}/run_impl_loop.sh` with this content (substitute MODEL with `$1` or default to `sonnet`):
+Use the Write tool to create `${2:-scripts}/run_impl_loop.sh` with this content (substitute MODEL with `$1`):
 
 ```bash
 #!/bin/bash
@@ -150,27 +145,7 @@ Replace `MODEL_PLACEHOLDER` with the value from `$1` (or `sonnet` if not provide
 chmod +x "${2:-scripts}/run_impl_loop.sh"
 ```
 
-### Step 5: Create Starter IMPLEMENTATION_PLAN.md (if missing)
-
-Check if `IMPLEMENTATION_PLAN.md` exists in the project root. If not, create it:
-
-```markdown
-# Implementation Plan
-
-## Priority Items
-
-- [ ] (Add your first implementation task here)
-
-## Completed
-
-(Completed items will be moved here)
-
-## Out of Scope / Future Work
-
-(Items for later consideration)
-```
-
-### Step 6: Output Success Message
+### Step 5: Output Success Message
 
 Output the following to the user:
 
