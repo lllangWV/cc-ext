@@ -13,6 +13,13 @@
       "version": "1.0.0",
       "source": "./plugins/cc-ext",
       "category": "productivity"
+    },
+    {
+      "name": "ralph",
+      "description": "Ralph automation scripts for continuous implementation loops - planning, implementation, and general prompts for autonomous coding workflows",
+      "version": "1.0.0",
+      "source": "./plugins/ralph",
+      "category": "automation"
     }
   ]
 }
