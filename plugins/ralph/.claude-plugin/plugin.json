@@ -5,7 +5,10 @@
   "author": {
     "name": "lllang"
   },
-  "commands": [
-    { "name": "create_ralph_impl_loop", "description": "Generate implementation loop scripts for continuous autonomous coding (Linear-free)" }
-  ]
+  "commands": "./commands/",
+  "agents": "./agents/",
+  "skills": "./skills/",
+  "hooks": "./hooks/",
+  "repository": "https://github.com/lllang/ccmarket",
+  "license": "MIT"
 }
