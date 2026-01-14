@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Guide for building coding agents from scratch - tool-calling LLM loops and inference architecture",
   "author": {
-    "name": "lllang"
+    "name": "lllangWV"
   },
-  "repository": "https://github.com/lllangWV/ccmarket",
-  "license": "MIT",
-  "skills": "./skills/"
+  "repository": "https://github.com/lllangWV/ccmarket/tree/main/plugins/coding-agent",
+  "license": "MIT"
 }

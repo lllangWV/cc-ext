@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Data engineering tools - production data pipelines and Delta Lake operations",
   "author": {
-    "name": "lllang"
+    "name": "lllangWV"
   },
-  "repository": "https://github.com/lllangWV/ccmarket",
-  "license": "MIT",
-  "skills": "./skills/"
+  "repository": "https://github.com/lllangWV/ccmarket/tree/main/plugins/data",
+  "license": "MIT"
 }

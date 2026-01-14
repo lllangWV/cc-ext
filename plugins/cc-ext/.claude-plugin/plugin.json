@@ -3,17 +3,8 @@
   "version": "1.0.0",
   "description": "Slash commands and agents for workflow automation - Linear integration, git workflows, and planning",
   "author": {
-    "name": "lllang"
+    "name": "lllangWV"
   },
-  "repository": "https://github.com/lllangWV/ccmarket",
-  "license": "MIT",
-  "agents": [
-    "./agents/codebase-analyzer.md",
-    "./agents/codebase-locator.md",
-    "./agents/codebase-pattern-finder.md",
-    "./agents/thoughts-analyzer.md",
-    "./agents/thoughts-locator.md",
-    "./agents/web-search-researcher.md"
-  ],
-  "commands": "./commands/"
+  "repository": "https://github.com/lllangWV/ccmarket/tree/main/plugins/cc-ext",
+  "license": "MIT"
 }

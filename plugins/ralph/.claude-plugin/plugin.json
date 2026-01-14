@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Ralph automation scripts for continuous implementation loops - planning, implementation, and general prompts for autonomous coding workflows",
   "author": {
-    "name": "lllang"
+    "name": "lllangWV"
   },
-  "repository": "https://github.com/lllangWV/ccmarket",
+  "repository": "https://github.com/lllangWV/ccmarket/tree/main/plugins/ralph",
   "license": "MIT"
 }

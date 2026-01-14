@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Manim Community - mathematical animation library for creating explanatory videos",
   "author": {
-    "name": "lllang"
+    "name": "lllangWV"
   },
-  "repository": "https://github.com/lllangWV/ccmarket",
-  "license": "MIT",
-  "skills": "./skills/"
+  "repository": "https://github.com/lllangWV/ccmarket/tree/main/plugins/manim",
+  "license": "MIT"
 }

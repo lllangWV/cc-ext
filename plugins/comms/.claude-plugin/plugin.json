@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Communication and documentation - co-authoring workflows and internal communications templates",
   "author": {
-    "name": "lllang"
+    "name": "lllangWV"
   },
-  "repository": "https://github.com/lllangWV/ccmarket",
-  "license": "MIT",
-  "skills": "./skills/"
+  "repository": "https://github.com/lllangWV/ccmarket/tree/main/plugins/comms",
+  "license": "MIT"
 }
