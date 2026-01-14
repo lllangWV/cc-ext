@@ -1,0 +1,11 @@
+{
+  "name": "manim",
+  "version": "1.0.0",
+  "description": "Manim Community - mathematical animation library for creating explanatory videos",
+  "author": {
+    "name": "lllang"
+  },
+  "repository": "https://github.com/lllangWV/ccmarket",
+  "license": "MIT",
+  "skills": "./skills/"
+}
