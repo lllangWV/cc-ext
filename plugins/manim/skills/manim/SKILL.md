@@ -1,6 +1,6 @@
 ---
 name: manim
-description: Create mathematical animations with Manim Community Edition. Use when users want to create animated videos explaining math, science, or programming concepts. Triggers include: creating animations, visualizing equations, animating graphs/plots, making educational videos, geometric animations, LaTeX animations, 3D visualizations, or any request mentioning "manim".
+description: Create mathematical animations with Manim Community Edition. Use when users want to create animated videos explaining math, science, or programming concepts. Triggers include- creating animations, visualizing equations, animating graphs/plots, making educational videos, geometric animations, LaTeX animations, 3D visualizations, or any request mentioning "manim".
 ---
 
 # Manim Community Edition
