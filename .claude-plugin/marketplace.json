@@ -111,6 +111,13 @@
       "version": "1.0.0",
       "source": "./plugins/ralph",
       "category": "automation"
+    },
+    {
+      "name": "rattler",
+      "description": "Rattler-build conda package builder - create, test, and publish conda packages from recipe.yaml files",
+      "version": "1.0.0",
+      "source": "./plugins/rattler",
+      "category": "development"
     }
   ]
 }

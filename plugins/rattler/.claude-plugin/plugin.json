@@ -1,0 +1,11 @@
+{
+  "name": "rattler",
+  "version": "1.0.0",
+  "description": "Rattler-build conda package builder - create, test, and publish conda packages from recipe.yaml files",
+  "author": {
+    "name": "lllangWV"
+  },
+  "repository": "https://github.com/lllangWV/ccmarket/tree/main/plugins/rattler",
+  "license": "MIT",
+  "skills": "./skills/"
+}
