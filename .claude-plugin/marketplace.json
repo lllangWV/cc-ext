@@ -92,6 +92,13 @@
       "category": "development"
     },
     {
+      "name": "manim",
+      "description": "Manim Community - mathematical animation library for creating explanatory videos",
+      "version": "1.0.0",
+      "source": "./plugins/manim",
+      "category": "design"
+    },
+    {
       "name": "ralph",
       "description": "Ralph automation scripts for continuous implementation loops - planning, implementation, and general prompts for autonomous coding workflows",
       "version": "1.0.0",
